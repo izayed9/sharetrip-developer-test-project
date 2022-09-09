@@ -1,15 +1,14 @@
 import React, { Fragment } from 'react';
 import Document, { Html, Head, Main, NextScript } from 'next/document';
 import { ServerStyleSheets } from '@mui/styles'; // works with @mui/material/styles, if you prefer to use it.
-import { theme } from '../theme';
+
 
 export default class MyDocument extends Document {
   render() {
     return (
       <Html lang="en">
         <Head>
-          {/* Not exactly required, but this is the PWA primary color */}
-          <meta name="theme-color" content={theme.palette.primary.main} />
+          
         </Head>
         <body>
           <Main />
@@ -55,7 +54,7 @@ MyDocument.getInitialProps = async (ctx) => {
     });
 
   const initialProps = await Document.getInitialProps(ctx);
-  const isProduction = process.env.NODE_ENV === 'production';
+
 
   return {
     ...initialProps,
@@ -64,6 +63,6 @@ MyDocument.getInitialProps = async (ctx) => {
       ...React.Children.toArray(initialProps.styles),
       sheets.getStyleElement(),
     ],
-    isProduction,
+
   };
 };
