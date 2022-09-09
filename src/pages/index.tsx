@@ -8,7 +8,7 @@ const Home: NextPage = () => {
   return (
     <Box>
       <Header />
-      <Container maxWidth="lg">
+      <Container maxWidth="xl">
         <Grid container spacing={2}>
           <Grid item md={3}>
             <LeftPanelSideBar />

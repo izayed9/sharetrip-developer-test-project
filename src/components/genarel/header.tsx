@@ -28,7 +28,7 @@ const Header = () => {
 
   return (
     <AppBar position="sticky" color="transparent" className={classes.appbar}>
-      <Container maxWidth="lg">
+      <Container maxWidth="xl">
         <Grid
           container
           justifyContent="space-between"
