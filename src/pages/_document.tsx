@@ -1,14 +1,35 @@
 import React, { Fragment } from 'react';
 import Document, { Html, Head, Main, NextScript } from 'next/document';
 import { ServerStyleSheets } from '@mui/styles'; // works with @mui/material/styles, if you prefer to use it.
-
+import {theme} from "theme"
 
 export default class MyDocument extends Document {
   render() {
     return (
       <Html lang="en">
         <Head>
-          
+        <meta charSet="utf-8" />
+          {/* PWA primary color */}
+          <meta name="theme-color" content={theme.palette.primary.main} />
+          <link
+            rel="preload"
+            href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap"
+            as="style"
+          />
+          <link
+            rel="stylesheet"
+            href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap"
+          />
+          <link
+            rel="preload"
+            href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+            as="style"
+          />
+          <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+          />
+
         </Head>
         <body>
           <Main />
