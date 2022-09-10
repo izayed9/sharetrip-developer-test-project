@@ -17,7 +17,6 @@ const useStyles = makeStyles(() =>
     },
     alignRight: {
       display: 'flex',
-
     },
   }),
 );

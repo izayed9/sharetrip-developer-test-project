@@ -1,4 +1,4 @@
-import { makeStyles } from '@material-ui/styles';
+import { makeStyles } from '@mui/styles';
 import { Grid, Stack, TextField, Typography } from '@mui/material';
 import SelectTextField from 'components/selectTextfield';
 import React from 'react';

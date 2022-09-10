@@ -4,12 +4,13 @@ import React from 'react';
 import SortPanel from 'components/sortPanel';
 import BusesTicket from 'components/busesTicket';
 import TicketSidebar from 'components/ticketSidebar';
-import { makeStyles } from '@material-ui/styles';
+import { makeStyles } from '@mui/styles';
 
 const useStyles = makeStyles({
   bodyTitle: {
     fontWeight: 500,
     fontSize: '16px',
+    color: '#000000',
   },
 });
 

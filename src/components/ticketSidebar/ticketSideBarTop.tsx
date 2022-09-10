@@ -1,6 +1,6 @@
 import { Grid, Typography, Button, Box } from '@mui/material';
 import React from 'react';
-import { makeStyles } from '@material-ui/styles';
+import { makeStyles } from '@mui/styles';
 import { colors } from 'theme';
 
 const useStyles = makeStyles({
@@ -24,9 +24,7 @@ const TicketSideBarTop = () => {
       <Grid container justifyContent="flex-end">
         <Grid item md={12} xs={12} textAlign="right">
           <Typography variant="body2">Per Person</Typography>
-          <Typography className={classes.priceColor}>
-            BDT 750
-          </Typography>
+          <Typography className={classes.priceColor}>BDT 750</Typography>
           <Typography variant="h6" className={classes.smallPriceColor}>
             BDT 750
           </Typography>

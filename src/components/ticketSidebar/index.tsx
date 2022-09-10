@@ -8,7 +8,7 @@ import {
 } from '@mui/material';
 import React from 'react';
 import TicketSideBarTop from './ticketSideBarTop';
-import { makeStyles } from '@material-ui/styles';
+import { makeStyles } from '@mui/styles';
 import { colors } from 'theme';
 import SeatIcon from 'components/logos/seatIcon';
 

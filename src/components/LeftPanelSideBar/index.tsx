@@ -119,7 +119,7 @@ const LeftPanelSideBar = () => {
         </Grid>
 
         <Grid item md={12} xs={12}>
-          <Typography variant="body1">Departure Time</Typography>
+          <Typography variant="body1" mt={2}>Departure Time</Typography>
         </Grid>
         <Grid item md={12} xs={12}>
           <List>

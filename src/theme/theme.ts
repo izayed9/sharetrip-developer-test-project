@@ -76,7 +76,7 @@ const options: ThemeOptions = {
             fontFamily:
               '"Bornomala", "Roboto", "Helvetica", "Arial", sans-serif',
             fontWeight: 400,
-            fontSize: '14px',
+            fontSize: '15px',
             lineHeight: 1.5,
             letterSpacing: '0.00938em',
             WebkitFontSmoothing: 'auto',
