@@ -26,7 +26,7 @@ const Header = () => {
   const isSmScreen = useMediaQuery(theme.breakpoints.down(700));
 
   return (
-    <AppBar position="sticky" color="transparent" className={classes.appbar}>
+    <AppBar position="static" color="transparent" className={classes.appbar}>
       <Container maxWidth="xl">
         <Grid
           container

@@ -29,42 +29,42 @@ const options: ThemeOptions = {
     h1: {
       fontSize: '2.5rem',
       fontWeight: 600,
-      fontFamily: '"Bornomala", "Roboto", "Helvetica", "Arial", sans-serif',
+      fontFamily: '"SF Pro Display","Bornomala", "Roboto", "Helvetica", "Arial", sans-serif',
     },
     h2: {
       fontSize: '2rem',
       fontWeight: 400,
-      fontFamily: '"Bornomala", "Roboto", "Helvetica", "Arial", sans-serif',
+      fontFamily: '"SF Pro Display","Bornomala", "Roboto", "Helvetica", "Arial", sans-serif',
     },
     h3: {
       fontSize: '1.75rem',
       fontWeight: 400,
-      fontFamily: '"Bornomala", "Roboto", "Helvetica", "Arial", sans-serif',
+      fontFamily: '"SF Pro Display","Bornomala", "Roboto", "Helvetica", "Arial", sans-serif',
     },
     h4: {
       fontSize: '16px',
       fontWeight: 700,
-      fontFamily: '"Bornomala", "Roboto", "Helvetica", "Arial", sans-serif',
+      fontFamily: '"SF Pro Display","Bornomala", "Roboto", "Helvetica", "Arial", sans-serif',
     },
     h5: {
       fontSize: '1.25rem',
       fontWeight: 400,
-      fontFamily: '"Bornomala", "Roboto", "Helvetica", "Arial", sans-serif',
+      fontFamily: '"SF Pro Display","Bornomala", "Roboto", "Helvetica", "Arial", sans-serif',
     },
     h6: {
       fontSize: '16px',
       fontWeight: 500,
       color: '#000000',
-      fontFamily: '"Bornomala", "Roboto", "Helvetica", "Arial", sans-serif',
+      fontFamily: '"SF Pro Display","Bornomala", "Roboto", "Helvetica", "Arial", sans-serif',
     },
     body1: {
       fontSize: `14px`,
       fontWeight: 500,
-      fontFamily: '"Bornomala", "Roboto", "Helvetica", "Arial", sans-serif',
+      fontFamily: '"SF Pro Display","Bornomala", "Roboto", "Helvetica", "Arial", sans-serif',
     },
     body2: {
       fontSize: `14px`,
-      fontFamily: '"Bornomala", "Roboto", "Helvetica", "Arial", sans-serif',
+      fontFamily: '"SF Pro Display","Bornomala", "Roboto", "Helvetica", "Arial", sans-serif',
     },
   },
 
@@ -74,7 +74,7 @@ const options: ThemeOptions = {
         '@global': {
           html: {
             fontFamily:
-              '"Bornomala", "Roboto", "Helvetica", "Arial", sans-serif',
+              '"SF Pro Display","Bornomala", "Roboto", "Helvetica", "Arial", sans-serif',
             fontWeight: 400,
             fontSize: '15px',
             lineHeight: 1.5,
@@ -87,7 +87,7 @@ const options: ThemeOptions = {
     MuiFormHelperText: {
       styleOverrides: {
         root: {
-          fontFamily: '"Bornomala", "Roboto", "Helvetica", "Arial", sans-serif',
+          fontFamily: '"SF Pro Display","Bornomala", "Roboto", "Helvetica", "Arial", sans-serif',
           fontSize: '14px',
           margin: '10px 0 0 0',
         },
@@ -96,14 +96,14 @@ const options: ThemeOptions = {
     MuiInputLabel: {
       styleOverrides: {
         root: {
-          fontFamily: '"Bornomala", "Roboto", "Helvetica", "Arial", sans-serif',
+          fontFamily: '"SF Pro Display","Bornomala", "Roboto", "Helvetica", "Arial", sans-serif',
         },
       },
     },
     MuiButton: {
       styleOverrides: {
         root: {
-          fontFamily: '"Bornomala", "Roboto", "Helvetica", "Arial", sans-serif',
+          fontFamily: '"SF Pro Display","Bornomala", "Roboto", "Helvetica", "Arial", sans-serif',
           boxShadow: 'none',
           borderRadius: '4px',
           height: '36px',
@@ -157,7 +157,7 @@ const options: ThemeOptions = {
       styleOverrides: {
         root: {
           padding: '1px 2px',
-          fontFamily: '"Bornomala", "Roboto", "Helvetica", "Arial", sans-serif',
+          fontFamily: '"SF Pro Display","Bornomala", "Roboto", "Helvetica", "Arial", sans-serif',
           '&.Mui-selected': {
             color: colors.black,
             fontWeight: 'bold',
@@ -168,7 +168,7 @@ const options: ThemeOptions = {
     MuiTypography: {
       styleOverrides: {
         root: {
-          fontFamily: `"Bornomala", "Roboto", "sans-serif" !important`,
+          fontFamily: `"SF Pro Display","Bornomala", "Roboto", "sans-serif" !important`,
           fontWeight: 400,
         },
       },
@@ -202,7 +202,7 @@ const options: ThemeOptions = {
     MuiChip: {
       styleOverrides: {
         root: {
-          fontFamily: `"Bornomala", "Roboto", "sans-serif" !important`,
+          fontFamily: `"SF Pro Display","Bornomala", "Roboto", "sans-serif" !important`,
         },
       },
     },
