@@ -80,7 +80,6 @@ const NavMenu: FC<IProps> = ({ isVerticalMenu, onCloseNav }) => {
                 name={name}
                 route={routeCallback(params)}
                 persistLocation={persistLocation}
-
               />
             </ListItem>
           );

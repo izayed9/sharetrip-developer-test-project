@@ -219,21 +219,12 @@ const options: ThemeOptions = {
   breakpoints: {
     values: {
       xs: 0,
-      sm: 576,
-      md: 768,
-      lg: 1024,
-      xl: 1440,
+      sm: 600,
+      md: 900,
+      lg: 1270,
+      xl: 1536,
     },
   },
-  // breakpoints: {
-  //   values: {
-  //     xs: 0,
-  //     sm: 600,
-  //     md: 900,
-  //     lg: 1270,
-  //     xl: 1536,
-  //   },
-  // },
 };
 
 const theme = responsiveFontSizes(createTheme(options));
