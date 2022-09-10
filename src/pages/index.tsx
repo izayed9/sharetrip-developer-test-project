@@ -1,6 +1,6 @@
 import { Grid, Container, Box } from '@mui/material';
 import LeftPanelSideBar from 'components/LeftPanelSideBar';;
-import Header from 'components/genarel/header';
+import Header from 'components/header';
 import BusesInformation from 'components/busesInformation';
 import type { NextPage } from 'next';
 

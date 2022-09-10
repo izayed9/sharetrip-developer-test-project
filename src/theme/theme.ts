@@ -160,7 +160,8 @@ const options: ThemeOptions = {
           fontFamily: '"SF Pro Display","Bornomala", "Roboto", "Helvetica", "Arial", sans-serif',
           '&.Mui-selected': {
             color: colors.black,
-            fontWeight: 'bold',
+            
+            backgroundColor:colors.primary.main,
           },
         },
       },

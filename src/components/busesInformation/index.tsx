@@ -5,6 +5,7 @@ import SortPanel from 'components/sortPanel';
 import BusesTicket from 'components/busesTicket';
 import TicketSidebar from 'components/ticketSidebar';
 import { makeStyles } from '@mui/styles';
+import BusInfoTabs from 'components/busInfoTab';
 
 const useStyles = makeStyles({
   bodyTitle: {
@@ -25,20 +26,22 @@ const BusesInformation = () => {
           </Typography>
         </Grid>
         <Grid item md={12}>
-          <SortPanel />
+          <BusInfoTabs />
         </Grid>
-        <Box sx={{ boxShadow: 2 }} pl={3} mt={2}>
-          <Grid item md={12}>
-            <Grid container>
-              <Grid item md={8} pr={3}>
-                <BusesTicket />
-              </Grid>
-              <Grid item md={4}>
-                <TicketSidebar />
+{/*
+          <Box sx={{ boxShadow: 2 }} pl={3} mt={2}>
+            <Grid item md={12}>
+              <Grid container>
+                <Grid item md={8} pr={3}>
+                  <BusesTicket />
+                </Grid>
+                <Grid item md={4}>
+                  <TicketSidebar />
+                </Grid>
               </Grid>
             </Grid>
-          </Grid>
-        </Box>
+          </Box> */}
+
       </Grid>
       {/* <SortTabPanel/> */}
     </>
