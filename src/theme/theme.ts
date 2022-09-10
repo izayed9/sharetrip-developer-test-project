@@ -54,7 +54,7 @@ const options: ThemeOptions = {
     h6: {
       fontSize: '16px',
       fontWeight: 500,
-      color:'#000000',
+      color: '#000000',
       fontFamily: '"Bornomala", "Roboto", "Helvetica", "Arial", sans-serif',
     },
     body1: {
@@ -76,7 +76,7 @@ const options: ThemeOptions = {
             fontFamily:
               '"Bornomala", "Roboto", "Helvetica", "Arial", sans-serif',
             fontWeight: 400,
-            fontSize:'14px',
+            fontSize: '14px',
             lineHeight: 1.5,
             letterSpacing: '0.00938em',
             WebkitFontSmoothing: 'auto',
@@ -143,7 +143,6 @@ const options: ThemeOptions = {
       styleOverrides: {
         container: {
           marginTop: 0,
-
         },
       },
     },
@@ -170,15 +169,13 @@ const options: ThemeOptions = {
       styleOverrides: {
         root: {
           fontFamily: `"Bornomala", "Roboto", "sans-serif" !important`,
-          fontWeight:400,
+          fontWeight: 400,
         },
       },
     },
     MuiIconButton: {
       styleOverrides: {
-        root: {
-
-        },
+        root: {},
       },
     },
 
@@ -217,18 +214,26 @@ const options: ThemeOptions = {
         },
       },
     },
-
   },
 
   breakpoints: {
     values: {
       xs: 0,
-      sm: 600,
-      md: 900,
-      lg: 1270,
-      xl: 1536,
+      sm: 576,
+      md: 768,
+      lg: 1024,
+      xl: 1440,
     },
   },
+  // breakpoints: {
+  //   values: {
+  //     xs: 0,
+  //     sm: 600,
+  //     md: 900,
+  //     lg: 1270,
+  //     xl: 1536,
+  //   },
+  // },
 };
 
 const theme = responsiveFontSizes(createTheme(options));
