@@ -24,7 +24,7 @@ const useStyles = makeStyles(() =>
 
 const Header = () => {
   const classes = useStyles();
-  const isSmScreen = useMediaQuery(theme.breakpoints.down(960));
+  const isSmScreen = useMediaQuery(theme.breakpoints.down(700));
 
   return (
     <AppBar position="sticky" color="transparent" className={classes.appbar}>
