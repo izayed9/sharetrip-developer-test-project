@@ -67,8 +67,8 @@ const Tripcoin = (props: React.SVGProps<SVGSVGElement>) => (
         y2="3.2334"
         gradientUnits="userSpaceOnUse"
       >
-        <stop offset="0.02" stop-color="#FCB900" />
-        <stop offset="1" stop-color="#FCCA04" />
+        <stop offset="0.02" stopColor="#FCB900" />
+        <stop offset="1" stopColor="#FCCA04" />
       </linearGradient>
       <linearGradient
         id="paint1_linear_3_113"
@@ -78,9 +78,9 @@ const Tripcoin = (props: React.SVGProps<SVGSVGElement>) => (
         y2="4.75779"
         gradientUnits="userSpaceOnUse"
       >
-        <stop offset="0.02" stop-color="#603813" />
-        <stop offset="0.58" stop-color="#C69C6D" />
-        <stop offset="1" stop-color="#C69C6D" stop-opacity="0" />
+        <stop offset="0.02" stopColor="#603813" />
+        <stop offset="0.58" stopColor="#C69C6D" />
+        <stop offset="1" stopColor="#C69C6D" stopOpacity="0" />
       </linearGradient>
       <linearGradient
         id="paint2_linear_3_113"
@@ -90,8 +90,8 @@ const Tripcoin = (props: React.SVGProps<SVGSVGElement>) => (
         y2="49.43"
         gradientUnits="userSpaceOnUse"
       >
-        <stop stop-color="#FCD847" />
-        <stop offset="1" stop-color="#A47E1B" />
+        <stop stopColor="#FCD847" />
+        <stop offset="1" stopColor="#A47E1B" />
       </linearGradient>
     </defs>
   </svg>
