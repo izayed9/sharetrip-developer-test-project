@@ -120,7 +120,7 @@ const TicketSidebar = () => {
         </Grid>
         <Grid item md={12} xs={12}>
           <Button variant="contained" fullWidth>
-            Select&Contine to return
+            Select & Contuine to return
           </Button>
         </Grid>
       </Grid>

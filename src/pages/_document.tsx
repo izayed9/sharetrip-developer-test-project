@@ -1,14 +1,13 @@
 import React, { Fragment } from 'react';
 import Document, { Html, Head, Main, NextScript } from 'next/document';
 import { ServerStyleSheets } from '@mui/styles'; // works with @mui/material/styles, if you prefer to use it.
-import { theme } from 'theme';
 
 export default class MyDocument extends Document {
   render() {
     return (
       <Html lang="en">
         <Head>
-        <link
+          <link
             rel="preload"
             href="http://fonts.cdnfonts.com/css/sf-pro-display"
             as="style"
@@ -17,7 +16,7 @@ export default class MyDocument extends Document {
             rel="stylesheet"
             href="http://fonts.cdnfonts.com/css/sf-pro-display"
           />
-           {/* <link
+          {/* <link
             rel="preload"
             href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap"
             as="style"

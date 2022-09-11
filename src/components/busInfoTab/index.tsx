@@ -51,7 +51,7 @@ function TabPanel(props: TabPanelProps) {
     >
       {value === index && (
         <Box>
-          <Typography>{children}</Typography>
+          <Typography component={"span"}>{children}</Typography>
         </Box>
       )}
     </div>
@@ -74,7 +74,6 @@ export default function BusInfoTabs() {
   };
 
   return (
-    <>
       <Box
         sx={{
           width: '100%',
@@ -127,6 +126,6 @@ export default function BusInfoTabs() {
           <WorkInProgress />
         </TabPanel>
       </Box>
-    </>
+
   );
 }
