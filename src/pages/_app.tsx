@@ -4,9 +4,10 @@ import CssBaseline from '@mui/material/CssBaseline';
 import { StyledEngineProvider, ThemeProvider } from '@mui/material/styles';
 import { AppProps } from 'next/app';
 import Head from 'next/head';
-import { useEffect } from 'react';
+import { useEffect, useState } from 'react';
 import { theme } from 'theme';
 import './global.css';
+import { Breakpoint, BreakpointProvider } from 'react-socks';
 
 export default function MyApp(props: AppProps) {
   const {
@@ -28,9 +29,19 @@ export default function MyApp(props: AppProps) {
     key: 'css',
     prepend: true,
   });
+  const [showChild, setShowChild] = useState(false)
+
+  useEffect(() => {
+    setShowChild(true)
+  }, [])
+
+  if (!showChild) {
+    return null
+  }
 
   return (
     <StyledEngineProvider injectFirst>
+      <BreakpointProvider>
       <CacheProvider value={cache}>
         <Head>
           <title>sharetrip</title>
@@ -43,7 +54,8 @@ export default function MyApp(props: AppProps) {
           <CssBaseline />
           <Component {...pageProps} />
         </ThemeProvider>
-      </CacheProvider>
+        </CacheProvider>
+        </BreakpointProvider>
     </StyledEngineProvider>
   );
 }

@@ -5,7 +5,7 @@ exports.id = 888;
 exports.ids = [888];
 exports.modules = {
 
-/***/ 5853:
+/***/ 5571:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 // ESM COMPAT FLAG
@@ -33,6 +33,8 @@ var head_default = /*#__PURE__*/__webpack_require__.n(head_namespaceObject);
 var external_react_ = __webpack_require__(6689);
 // EXTERNAL MODULE: ./src/theme/index.ts + 2 modules
 var theme = __webpack_require__(8771);
+;// CONCATENATED MODULE: external "react-socks"
+const external_react_socks_namespaceObject = require("react-socks");
 // EXTERNAL MODULE: external "react/jsx-runtime"
 var jsx_runtime_ = __webpack_require__(997);
 ;// CONCATENATED MODULE: ./src/pages/_app.tsx
@@ -41,6 +43,7 @@ function ownKeys(object, enumerableOnly) { var keys = Object.keys(object); if (O
 function _objectSpread(target) { for (var i = 1; i < arguments.length; i++) { var source = null != arguments[i] ? arguments[i] : {}; i % 2 ? ownKeys(Object(source), !0).forEach(function (key) { _defineProperty(target, key, source[key]); }) : Object.getOwnPropertyDescriptors ? Object.defineProperties(target, Object.getOwnPropertyDescriptors(source)) : ownKeys(Object(source)).forEach(function (key) { Object.defineProperty(target, key, Object.getOwnPropertyDescriptor(source, key)); }); } return target; }
 
 function _defineProperty(obj, key, value) { if (key in obj) { Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true }); } else { obj[key] = value; } return obj; }
+
 
 
 
@@ -70,21 +73,35 @@ function MyApp(props) {
     key: 'css',
     prepend: true
   });
+  const {
+    0: showChild,
+    1: setShowChild
+  } = (0,external_react_.useState)(false);
+  (0,external_react_.useEffect)(() => {
+    setShowChild(true);
+  }, []);
+
+  if (!showChild) {
+    return null;
+  }
+
   return /*#__PURE__*/jsx_runtime_.jsx(styles_.StyledEngineProvider, {
     injectFirst: true,
-    children: /*#__PURE__*/(0,jsx_runtime_.jsxs)(react_namespaceObject.CacheProvider, {
-      value: cache,
-      children: [/*#__PURE__*/(0,jsx_runtime_.jsxs)((head_default()), {
-        children: [/*#__PURE__*/jsx_runtime_.jsx("title", {
-          children: "sharetrip"
-        }), /*#__PURE__*/jsx_runtime_.jsx("meta", {
-          name: "viewport",
-          content: "minimum-scale=1, initial-scale=1, width=device-width"
+    children: /*#__PURE__*/jsx_runtime_.jsx(external_react_socks_namespaceObject.BreakpointProvider, {
+      children: /*#__PURE__*/(0,jsx_runtime_.jsxs)(react_namespaceObject.CacheProvider, {
+        value: cache,
+        children: [/*#__PURE__*/(0,jsx_runtime_.jsxs)((head_default()), {
+          children: [/*#__PURE__*/jsx_runtime_.jsx("title", {
+            children: "sharetrip"
+          }), /*#__PURE__*/jsx_runtime_.jsx("meta", {
+            name: "viewport",
+            content: "minimum-scale=1, initial-scale=1, width=device-width"
+          })]
+        }), /*#__PURE__*/(0,jsx_runtime_.jsxs)(styles_.ThemeProvider, {
+          theme: theme/* theme */.r,
+          children: [/*#__PURE__*/jsx_runtime_.jsx((CssBaseline_default()), {}), /*#__PURE__*/jsx_runtime_.jsx(Component, _objectSpread({}, pageProps))]
         })]
-      }), /*#__PURE__*/(0,jsx_runtime_.jsxs)(styles_.ThemeProvider, {
-        theme: theme/* theme */.r,
-        children: [/*#__PURE__*/jsx_runtime_.jsx((CssBaseline_default()), {}), /*#__PURE__*/jsx_runtime_.jsx(Component, _objectSpread({}, pageProps))]
-      })]
+      })
     })
   });
 }
@@ -119,7 +136,7 @@ module.exports = require("react/jsx-runtime");
 var __webpack_require__ = require("../webpack-runtime.js");
 __webpack_require__.C(exports);
 var __webpack_exec__ = (moduleId) => (__webpack_require__(__webpack_require__.s = moduleId))
-var __webpack_exports__ = __webpack_require__.X(0, [771], () => (__webpack_exec__(5853)));
+var __webpack_exports__ = __webpack_require__.X(0, [771], () => (__webpack_exec__(5571)));
 module.exports = __webpack_exports__;
 
 })();
