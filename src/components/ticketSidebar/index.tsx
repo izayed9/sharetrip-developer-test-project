@@ -27,8 +27,14 @@ const useStyles = makeStyles({
   totalPrice: {
     fontWeight: 600,
     fontSize: '16px',
-    color: '#000000'
-  }
+    color: '#000000',
+  },
+  serviceFont: {
+    color: colors.primary.main,
+  },
+  sarviceColor: {
+    color: '#4C4C4C',
+  },
 });
 
 const TicketSidebar = () => {
@@ -84,18 +90,19 @@ const TicketSidebar = () => {
         <Grid item md={12} xs={12} mt={2}>
           <Stack direction="row" justifyContent="space-between">
             <Typography variant="body2">Charge :</Typography>
-            <Typography mb={1} className={classes.priceLabel}>BDT 50</Typography>
+            <Typography mb={1} className={classes.priceLabel}>
+              BDT 50
+            </Typography>
           </Stack>
         </Grid>
-        <Grid item md={12} xs={12}  >
+        <Grid item md={12} xs={12}>
           <Stack
             direction="row"
             className={classes.bottomBorder}
             justifyContent="space-between"
-
           >
             <Typography variant="body2">Insurance :</Typography>
-            <Typography  className={classes.priceLabel}>BDT 50</Typography>
+            <Typography className={classes.priceLabel}>BDT 50</Typography>
           </Stack>
         </Grid>
         <Grid item md={12} mt={2} xs={12}>
@@ -105,14 +112,25 @@ const TicketSidebar = () => {
           </Stack>
         </Grid>
         <Grid item md={12} mt={4} xs={12}>
+          <Stack direction="row">
+            <Typography variant="body1" >
+              <Checkbox />
+            </Typography>
+
+            <Typography variant="body2" mt={1} className={classes.sarviceColor}>
+              I want to avail{' '}
+              <span className={classes.serviceFont}>Insurance Service</span>
+            </Typography>
+          </Stack>
           <FormControlLabel
+            className={classes.sarviceColor}
             control={<Checkbox />}
-            label="I want to Insurance Service"
+            label="I want to avail Insurance Service"
           />
         </Grid>
         <Grid item md={12} xs={12}>
           <Button fullWidth variant="contained">
-            Select&Continue to return
+            Select & Continue to return
           </Button>
         </Grid>
       </Grid>

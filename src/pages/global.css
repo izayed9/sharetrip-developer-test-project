@@ -1,0 +1,24 @@
+@import url('http://fonts.cdnfonts.com/css/sf-pro-display');
+
+/* @font-face {
+  font-family: 'SF Pro Display';
+  src: url('/fonts/SFPRODISPLAYREGULAR.OTF') format('OTF'),
+    url('/fonts/SFPRODISPLAYREGULAR.OTF') format('OTF');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'SF Pro Display';
+  src: url('/fonts/SFPRODISPLAYBOLD.OTF') format('OTF'),
+    url('/fonts/SFPRODISPLAYBOLD.OTF') format('OTF');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+} */
+
+body {
+  margin: 0 !important;
+  font-family: 'SF Pro Display';
+}

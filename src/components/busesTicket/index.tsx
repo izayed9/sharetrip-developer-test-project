@@ -104,7 +104,7 @@ const BusesTicket = () => {
             >
               To{' '}
             </Typography>
-            <Typography variant="h6">CHOTTOGRM</Typography>
+            <Typography variant="h6"> CHOTTOGRAM</Typography>
             <Typography className={classes.acFont}>05:30 AM</Typography>
             <Typography variant="body2">Dampara Counter</Typography>
             <Typography className={classes.ticketFont}>23 June 2021</Typography>
@@ -126,7 +126,7 @@ const BusesTicket = () => {
           <Grid item>
             <Stack flexDirection="row">
               <RedReactangle />
-              <Typography ml={1}>3 SoldOut</Typography>
+              <Typography ml={1}>3 Sold Out</Typography>
             </Stack>
           </Grid>
           <Grid item>
@@ -144,7 +144,7 @@ const BusesTicket = () => {
           <Grid item>
             <Stack flexDirection="row">
               <BlueReactangle />
-              <Typography ml={1}>14 Availbel</Typography>
+              <Typography ml={1}>14 Available</Typography>
             </Stack>
           </Grid>
           <Grid item>
