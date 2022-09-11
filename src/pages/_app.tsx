@@ -6,7 +6,6 @@ import { AppProps } from 'next/app';
 import Head from 'next/head';
 import { useEffect } from 'react';
 import { theme } from 'theme';
-import './global.css';
 
 export default function MyApp(props: AppProps) {
   const {

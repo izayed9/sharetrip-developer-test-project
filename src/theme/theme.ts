@@ -26,54 +26,47 @@ const options: ThemeOptions = {
   },
 
   typography: {
+    fontFamily: [
+      //  '-apple-system',
+      //  'BlinkMacSystemFont',
+      '"Segoe UI"',
+       'Roboto',
+      'sans-serif',
+      // '"Apple Color Emoji"',
+      // '"Segoe UI Emoji"',
+      // '"Segoe UI Symbol"',
+    ].join(','),
     h1: {
       fontSize: '2.5rem',
       fontWeight: 600,
-      fontFamily:
-        '"SF Pro Display", "Roboto", "Helvetica", "Arial", sans-serif',
     },
     h2: {
       fontSize: '2rem',
       fontWeight: 400,
-      fontFamily:
-        '"SF Pro Display", "Roboto", "Helvetica", "Arial", sans-serif',
     },
     h3: {
       fontSize: '1.75rem',
       fontWeight: 400,
-      fontFamily:
-        '"SF Pro Display", "Roboto", "Helvetica", "Arial", sans-serif',
     },
     h4: {
       fontSize: '16px',
       fontWeight: 700,
-      fontFamily:
-        '"SF Pro Display", "Roboto", "Helvetica", "Arial", sans-serif',
     },
     h5: {
       fontSize: '1.25rem',
       fontWeight: 400,
-      fontFamily:
-        '"SF Pro Display", "Roboto", "Helvetica", "Arial", sans-serif',
     },
     h6: {
       fontSize: '16px',
       fontWeight: 500,
       color: '#000000',
-      fontFamily:
-        '"SF Pro Display", "Roboto", "Helvetica", "Arial", sans-serif',
     },
     body1: {
       fontSize: `14px`,
       fontWeight: 500,
-      fontFamily:
-        '"SF Pro Display", "Roboto", "Helvetica", "Arial", sans-serif',
     },
     body2: {
       fontSize: `14px`,
-      
-      fontFamily:
-        '"SF Pro Display", "Roboto", "Helvetica", "Arial", sans-serif',
     },
   },
 
@@ -82,8 +75,7 @@ const options: ThemeOptions = {
       styleOverrides: {
         '@global': {
           html: {
-            // fontFamily:
-            // '"SF Pro Display", "Roboto", "Helvetica", "Arial", sans-serif',
+            // fontFamily: ` "Roboto", "sans-serif" !important`,
             fontWeight: 400,
             fontSize: '15px',
             lineHeight: 1.5,
@@ -96,8 +88,6 @@ const options: ThemeOptions = {
     MuiFormHelperText: {
       styleOverrides: {
         root: {
-          fontFamily:
-            '"SF Pro Display", "Roboto", "Helvetica", "Arial", sans-serif',
           fontSize: '14px',
           margin: '10px 0 0 0',
         },
@@ -105,17 +95,12 @@ const options: ThemeOptions = {
     },
     MuiInputLabel: {
       styleOverrides: {
-        root: {
-          fontFamily:
-            '"SF Pro Display", "Roboto", "Helvetica", "Arial", sans-serif',
-        },
+        root: {},
       },
     },
     MuiButton: {
       styleOverrides: {
         root: {
-          fontFamily:
-            '"SF Pro Display", "Roboto", "Helvetica", "Arial", sans-serif',
           boxShadow: 'none',
           borderRadius: '4px',
           height: '36px',
@@ -169,8 +154,6 @@ const options: ThemeOptions = {
       styleOverrides: {
         root: {
           padding: '1px 2px',
-          fontFamily:
-            '"SF Pro Display", "Roboto", "Helvetica", "Arial", sans-serif',
           '&.Mui-selected': {
             color: colors.black,
 
@@ -182,8 +165,8 @@ const options: ThemeOptions = {
     MuiTypography: {
       styleOverrides: {
         root: {
-          fontFamily: `"SF Pro Display", "Roboto", "sans-serif" !important`,
-          fontWeight: 400,
+          // fontFamily: ` "Roboto", !important`,
+          // fontWeight: 400,
         },
       },
     },

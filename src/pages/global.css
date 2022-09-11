@@ -1,9 +1,10 @@
 /* @import url('http://fonts.cdnfonts.com/css/sf-pro-display'); */
 
+/* 
 @font-face {
   font-family: 'SF Pro Display';
-  src: url('/fonts/SFPRODISPLAYREGULAR.OTF') format('OTF'),
-    url('/fonts/SFPRODISPLAYREGULAR.OTF') format('OTF');
+  src: url('/fonts/SF-Pro-Display.ttf') format('ttf'),
+    url('/fonts/SF-Pro-Display-Regular.ttf') format('ttf');
   font-weight: normal;
   font-style: normal;
   font-display: swap;
@@ -20,5 +21,4 @@
 
 body {
   margin: 0 !important;
-  font-family: 'SF Pro Display';
-}
+} */
