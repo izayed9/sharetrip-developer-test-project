@@ -33,7 +33,6 @@ const useStyles = makeStyles({
     color: colors.primary.main,
   },
   sarviceColor: {
-    color: '#4C4C4C',
     whiteSpace: 'nowrap',
   },
 });
