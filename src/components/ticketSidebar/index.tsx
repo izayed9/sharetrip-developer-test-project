@@ -120,7 +120,7 @@ const TicketSidebar = () => {
           />
         </Grid>
         <Grid item md={12} xs={12}>
-          <Button  variant="contained">
+          <Button className={classes.sarviceColor} variant="contained">
             Select & Continue to return
           </Button>
         </Grid>
