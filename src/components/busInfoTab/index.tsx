@@ -11,19 +11,26 @@ import Thunder from 'components/logos/thunder';
 import TabBody from 'components/tabBody';
 import { makeStyles } from '@mui/styles';
 import WorkInProgress from 'components/workInPogress';
+import {theme} from 'theme'
 
-const useStyles = makeStyles((theme) => ({
+
+const useStyles = makeStyles({
   tabs: {
     '& button': {
       minHeight: '48px',
       padding: '1px 44px 1px 20px ',
+      [theme.breakpoints.down("md")]: {
+        maxWidth: "0",
+        padding:'20px 0px'
+
+      }
     },
 
   },
   sortRadious: {
     borderRadius: '4px',
   },
-}));
+});
 
 interface TabPanelProps {
   children?: React.ReactNode;

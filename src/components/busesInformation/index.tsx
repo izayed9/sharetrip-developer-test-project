@@ -28,7 +28,7 @@ const BusesInformation = () => {
         <Grid item md={12}>
           <BusInfoTabs />
         </Grid>
-{/*
+        {/*
           <Box sx={{ boxShadow: 2 }} pl={3} mt={2}>
             <Grid item md={12}>
               <Grid container>
@@ -41,7 +41,6 @@ const BusesInformation = () => {
               </Grid>
             </Grid>
           </Box> */}
-
       </Grid>
       {/* <SortTabPanel/> */}
     </>

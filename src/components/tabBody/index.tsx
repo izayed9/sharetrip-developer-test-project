@@ -6,16 +6,14 @@ import React from 'react';
 const TabBody = () => {
   return (
     <Box sx={{ boxShadow: 2 }} pl={3} mt={2}>
-      <Grid item md={12}>
         <Grid container>
-          <Grid item md={8} pr={3}>
+          <Grid item md={8} xs={12} pr={3}>
             <BusesTicket />
           </Grid>
-          <Grid item md={4}>
+          <Grid item md={4} xs={12}>
             <TicketSidebar />
           </Grid>
         </Grid>
-      </Grid>
     </Box>
   );
 };
