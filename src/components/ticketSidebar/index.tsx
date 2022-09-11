@@ -34,6 +34,7 @@ const useStyles = makeStyles({
   },
   sarviceColor: {
     color: '#4C4C4C',
+    whiteSpace: 'nowrap',
   },
 });
 
@@ -112,16 +113,6 @@ const TicketSidebar = () => {
           </Stack>
         </Grid>
         <Grid item md={12} mt={4} xs={12}>
-          <Stack direction="row">
-            <Typography variant="body1" >
-              <Checkbox />
-            </Typography>
-
-            <Typography variant="body2" mt={1} className={classes.sarviceColor}>
-              I want to avail{' '}
-              <span className={classes.serviceFont}>Insurance Service</span>
-            </Typography>
-          </Stack>
           <FormControlLabel
             className={classes.sarviceColor}
             control={<Checkbox />}

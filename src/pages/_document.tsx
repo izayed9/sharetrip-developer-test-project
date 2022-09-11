@@ -8,7 +8,15 @@ export default class MyDocument extends Document {
     return (
       <Html lang="en">
         <Head>
-
+        <link
+            rel="preload"
+            href="http://fonts.cdnfonts.com/css/sf-pro-display"
+            as="style"
+          />
+          <link
+            rel="stylesheet"
+            href="http://fonts.cdnfonts.com/css/sf-pro-display"
+          />
           {/* <link
             rel="preload"
             href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap"
